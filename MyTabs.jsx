@@ -81,7 +81,6 @@ function LoadAnimation({ loading }) {
   return <Spinner visible={loading} />;
 }
 
-// HomeMenu 컴포넌트
 function HomeMenu({ navigation }) {
   const webViewRef = useRef(null);
   const [loading, setLoading] = useState(true);
